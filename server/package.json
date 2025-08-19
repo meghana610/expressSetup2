@@ -1,0 +1,30 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "expresssetup steps practice",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/meghana610/expressSetup2.git"
+  },
+  "keywords": [
+    "express",
+    "setup",
+    "git",
+    "github",
+    "steps"
+  ],
+  "author": "Meghana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meghana610/expressSetup2/issues"
+  },
+  "homepage": "https://github.com/meghana610/expressSetup2#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
