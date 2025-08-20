@@ -1,21 +1,21 @@
 import express from "express";
 
 const app = express();
-const PORT = 5000;
+app.use(express.json()) //This line imp for post,put,delete api's
+
+const PORT = 5001;
 
 /**
  * 1. Simple root route
  */
 
 app.get("/", (req, res) => {
-  res.send("Welcome to Meghana's Express ES6 Setup ");
+  res.send("Hello World");
 });
 
-/**
- * 2. Example GET route with plain response
- */
-app.get("/get", (req, res) => {
-  res.json({ message: "This is a GET route example" });
+app.post("/register",(req,res)=>{
+  let userData = req.body
+  console.log(userData)
 });
 
 
